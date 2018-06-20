@@ -18,7 +18,7 @@
 		E0F6790420D9E5D500C7ADAE /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6790020D9E5D500C7ADAE /* SingleViewController.swift */; };
 		E0F6790520D9E5D500C7ADAE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6790120D9E5D500C7ADAE /* ProfileViewController.swift */; };
 		E0F6790620D9E5D500C7ADAE /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6790220D9E5D500C7ADAE /* StatsViewController.swift */; };
-		E0FA831420D7651200E29615 /* PracticePro.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E0FA831320D7651200E29615 /* PracticePro.xcdatamodel */; };
+		E0F6790A20D9E97000C7ADAE /* SwingSolutions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0F6790720D9E97000C7ADAE /* SwingSolutions.xcdatamodeld */; };
 		E0FA831620D765EA00E29615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3306A1CD312F40094911E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +53,11 @@
 		E0F6790020D9E5D500C7ADAE /* SingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
 		E0F6790120D9E5D500C7ADAE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E0F6790220D9E5D500C7ADAE /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		E0F6790820D9E97000C7ADAE /* SwingSolutions 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SwingSolutions 2.xcdatamodel"; sourceTree = "<group>"; };
+		E0F6790920D9E97000C7ADAE /* PracticePro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PracticePro.xcdatamodel; sourceTree = "<group>"; };
 		E0FA830D20D764A900E29615 /* SwingSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FA830E20D764A900E29615 /* SwingSolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwingSolutionsTests.xctest; path = "/Users/jasoncrouse/Documents/SwingSolutions/SwingSolutions/build/Debug-iphoneos/SwingSolutionsTests.xctest"; sourceTree = "<absolute>"; };
 		E0FA830F20D764A900E29615 /* SwingSolutionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwingSolutionsUITests.xctest; path = "/Users/jasoncrouse/Documents/SwingSolutions/SwingSolutions/build/Debug-iphoneos/SwingSolutionsUITests.xctest"; sourceTree = "<absolute>"; };
-		E0FA831320D7651200E29615 /* PracticePro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = PracticePro.xcdatamodel; path = "New Group/PracticePro.xcdatamodel"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +98,7 @@
 				E0FA830320D7543800E29615 /* Models */,
 				E0FA830220D7541700E29615 /* Controllers */,
 				6EA3306A1CD312F40094911E /* AppDelegate.swift */,
-				E0FA831320D7651200E29615 /* PracticePro.xcdatamodel */,
+				E0F6790720D9E97000C7ADAE /* SwingSolutions.xcdatamodeld */,
 				6EA330711CD312F40094911E /* Assets.xcassets */,
 				6EA330761CD312F40094911E /* Info.plist */,
 				6EA330731CD312F40094911E /* LaunchScreen.storyboard */,
@@ -283,7 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F678FB20D9E58F00C7ADAE /* GlobalVariables.swift in Sources */,
-				E0FA831420D7651200E29615 /* PracticePro.xcdatamodel in Sources */,
+				E0F6790A20D9E97000C7ADAE /* SwingSolutions.xcdatamodeld in Sources */,
 				E0FA831620D765EA00E29615 /* AppDelegate.swift in Sources */,
 				E0F678FD20D9E58F00C7ADAE /* TabBarViewController.swift in Sources */,
 				E0F678FE20D9E58F00C7ADAE /* PracticeType.swift in Sources */,
@@ -606,6 +607,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E0F6790720D9E97000C7ADAE /* SwingSolutions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E0F6790820D9E97000C7ADAE /* SwingSolutions 2.xcdatamodel */,
+				E0F6790920D9E97000C7ADAE /* PracticePro.xcdatamodel */,
+			);
+			currentVersion = E0F6790820D9E97000C7ADAE /* SwingSolutions 2.xcdatamodel */;
+			path = SwingSolutions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6EA3305F1CD312F40094911E /* Project object */;
 }

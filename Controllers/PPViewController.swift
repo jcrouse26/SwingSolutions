@@ -116,7 +116,7 @@ class PPViewController: UIViewController {
         peakResultSlider.isHidden = false
     }
     
-    @objc func handleSwipes(_ gesture: UISwipeGestureRecognizer) {
+    @objc func handleSwipes(_ gesture: UIGestureRecognizer) {
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
             switch swipeGesture.direction {
             case UISwipeGestureRecognizerDirection.right:
@@ -124,10 +124,8 @@ class PPViewController: UIViewController {
                 if shotCounter > 1 {
                     prev()
                     shotCounterLabel.text = String(shotCounter)
-                }
-                
+				}
             case UISwipeGestureRecognizerDirection.left:
-                
                 // Viewing the newest shot
                 if shotCounter == shotsList.count {
                     next()
@@ -154,7 +152,6 @@ class PPViewController: UIViewController {
                 }
                 shotCounter += 1
                 shotCounterLabel.text = String(shotCounter)
-                
             case UISwipeGestureRecognizerDirection.down:
                 exit()
             default:
